@@ -4,7 +4,7 @@
 #
 Name     : Babel
 Version  : 2.1.1
-Release  : 17
+Release  : 18
 URL      : https://pypi.python.org/packages/source/B/Babel/Babel-2.1.1.tar.gz
 Source0  : https://pypi.python.org/packages/source/B/Babel/Babel-2.1.1.tar.gz
 Summary  : Internationalization utilities
