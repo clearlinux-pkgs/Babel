@@ -4,7 +4,7 @@
 #
 Name     : Babel
 Version  : 2.3.4
-Release  : 29
+Release  : 30
 URL      : http://pypi.debian.net/Babel/Babel-2.3.4.tar.gz
 Source0  : http://pypi.debian.net/Babel/Babel-2.3.4.tar.gz
 Summary  : Internationalization utilities
