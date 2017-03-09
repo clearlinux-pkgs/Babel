@@ -4,7 +4,7 @@
 #
 Name     : Babel
 Version  : 2.3.4
-Release  : 34
+Release  : 35
 URL      : http://pypi.debian.net/Babel/Babel-2.3.4.tar.gz
 Source0  : http://pypi.debian.net/Babel/Babel-2.3.4.tar.gz
 Summary  : Internationalization utilities
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : BSD-3-Clause
 Requires: Babel-bin
 Requires: Babel-python
+Requires: pytz
 BuildRequires : pbr
 BuildRequires : pip
 BuildRequires : python-dev
@@ -48,7 +49,7 @@ python components for the Babel package.
 
 %build
 export LANG=C
-export SOURCE_DATE_EPOCH=1484530948
+export SOURCE_DATE_EPOCH=1489024921
 python2 setup.py build -b py2
 python3 setup.py build -b py3
 
@@ -58,7 +59,7 @@ export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 py.test tests || :
 %install
-export SOURCE_DATE_EPOCH=1484530948
+export SOURCE_DATE_EPOCH=1489024921
 rm -rf %{buildroot}
 python2 -tt setup.py build -b py2 install --root=%{buildroot} --force
 python3 -tt setup.py build -b py3 install --root=%{buildroot} --force
