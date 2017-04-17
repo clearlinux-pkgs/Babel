@@ -1,5 +1,5 @@
 PKG_NAME := Babel
-URL := http://pypi.debian.net/Babel/Babel-2.3.4.tar.gz
+URL := https://pypi.debian.net/Babel/Babel-2.4.0.tar.gz
 
 
 include ../common/Makefile.common
