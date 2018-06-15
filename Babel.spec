@@ -17,7 +17,7 @@ Requires: pytz
 BuildRequires : pbr
 BuildRequires : pip
 BuildRequires : pytest
-BuildRequires : python-dev
+
 BuildRequires : python3-dev
 BuildRequires : pytz
 BuildRequires : setuptools
