@@ -4,7 +4,7 @@
 #
 Name     : Babel
 Version  : 2.6.0
-Release  : 58
+Release  : 59
 URL      : https://pypi.debian.net/Babel/Babel-2.6.0.tar.gz
 Source0  : https://pypi.debian.net/Babel/Babel-2.6.0.tar.gz
 Summary  : Internationalization utilities
