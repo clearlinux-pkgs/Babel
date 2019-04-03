@@ -4,7 +4,7 @@
 #
 Name     : Babel
 Version  : 2.6.0
-Release  : 64
+Release  : 65
 URL      : https://pypi.debian.net/Babel/Babel-2.6.0.tar.gz
 Source0  : https://pypi.debian.net/Babel/Babel-2.6.0.tar.gz
 Summary  : Babel randomly generates character strings based on context free grammars.
@@ -70,7 +70,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1554305728
+export SOURCE_DATE_EPOCH=1554307953
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
