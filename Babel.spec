@@ -4,7 +4,7 @@
 #
 Name     : Babel
 Version  : 2.6.0
-Release  : 70
+Release  : 71
 URL      : https://pypi.debian.net/Babel/Babel-2.6.0.tar.gz
 Source0  : https://pypi.debian.net/Babel/Babel-2.6.0.tar.gz
 Summary  : Babel randomly generates character strings based on context free grammars.
