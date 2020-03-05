@@ -4,7 +4,7 @@
 #
 Name     : Babel
 Version  : 2.6.0
-Release  : 73
+Release  : 74
 URL      : https://pypi.debian.net/Babel/Babel-2.6.0.tar.gz
 Source0  : https://pypi.debian.net/Babel/Babel-2.6.0.tar.gz
 Summary  : Internationalization utilities
@@ -57,7 +57,7 @@ python components for the Babel package.
 Summary: python3 components for the Babel package.
 Group: Default
 Requires: python3-core
-Provides: pypi(Babel)
+Provides: pypi(babel)
 Requires: pypi(pytz)
 
 %description python3
@@ -73,7 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1583448009
+export SOURCE_DATE_EPOCH=1583449396
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
