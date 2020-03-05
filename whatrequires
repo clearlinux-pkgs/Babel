@@ -9,6 +9,7 @@ bashate
 castellan
 conda
 django-babel
+heat
 horizon
 keystone
 nova
@@ -18,6 +19,8 @@ os-xenapi
 osc-lib
 oslo.i18n
 oslo.upgradecheck
+python-cinderclient
+python-heatclient
 python-magnumclient
 python-manilaclient
 python-neutronclient
@@ -28,4 +31,5 @@ python-senlinclient
 python-tappy
 python-troveclient
 sahara
+tempest-lib
 traceback2

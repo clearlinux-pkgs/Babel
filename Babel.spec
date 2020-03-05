@@ -4,10 +4,10 @@
 #
 Name     : Babel
 Version  : 2.6.0
-Release  : 72
+Release  : 73
 URL      : https://pypi.debian.net/Babel/Babel-2.6.0.tar.gz
 Source0  : https://pypi.debian.net/Babel/Babel-2.6.0.tar.gz
-Summary  : Babel randomly generates character strings based on context free grammars.
+Summary  : Internationalization utilities
 Group    : Development/Tools
 License  : BSD-3-Clause
 Requires: Babel-bin = %{version}-%{release}
@@ -58,6 +58,7 @@ Summary: python3 components for the Babel package.
 Group: Default
 Requires: python3-core
 Provides: pypi(Babel)
+Requires: pypi(pytz)
 
 %description python3
 python3 components for the Babel package.
@@ -72,8 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582849195
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583448009
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
