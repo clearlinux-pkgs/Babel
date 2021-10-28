@@ -4,7 +4,7 @@
 #
 Name     : Babel
 Version  : 2.9.1
-Release  : 85
+Release  : 86
 URL      : https://files.pythonhosted.org/packages/17/e6/ec9aa6ac3d00c383a5731cc97ed7c619d3996232c977bb8326bcbb6c687e/Babel-2.9.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/17/e6/ec9aa6ac3d00c383a5731cc97ed7c619d3996232c977bb8326bcbb6c687e/Babel-2.9.1.tar.gz
 Summary  : Internationalization utilities
