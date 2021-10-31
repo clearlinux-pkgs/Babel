@@ -4,7 +4,7 @@
 #
 Name     : Babel
 Version  : 2.9.1
-Release  : 88
+Release  : 89
 URL      : https://files.pythonhosted.org/packages/17/e6/ec9aa6ac3d00c383a5731cc97ed7c619d3996232c977bb8326bcbb6c687e/Babel-2.9.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/17/e6/ec9aa6ac3d00c383a5731cc97ed7c619d3996232c977bb8326bcbb6c687e/Babel-2.9.1.tar.gz
 Summary  : Internationalization utilities
@@ -73,7 +73,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1619736214
+export SOURCE_DATE_EPOCH=1635705929
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
@@ -91,7 +91,9 @@ py.test tests || :
 export MAKEFLAGS=%{?_smp_mflags}
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/Babel
+cp %{_builddir}/Babel-2.9.1/LICENSE %{buildroot}/usr/share/package-licenses/Babel/2c712b75adbb8352f37d377289596fd88935352d
 cp %{_builddir}/Babel-2.9.1/docs/_themes/LICENSE %{buildroot}/usr/share/package-licenses/Babel/d0eff60551064b040266867c393e035d747b0ae5
+cp %{_builddir}/Babel-2.9.1/docs/license.rst %{buildroot}/usr/share/package-licenses/Babel/11b5e2224ed952488aa2abbd6c9f41c64a7eca3e
 python3 -tt setup.py build  install --root=%{buildroot}
 echo ----[ mark ]----
 cat %{buildroot}/usr/lib/python3*/site-packages/*/requires.txt || :
@@ -106,6 +108,8 @@ echo ----[ mark ]----
 
 %files license
 %defattr(0644,root,root,0755)
+/usr/share/package-licenses/Babel/11b5e2224ed952488aa2abbd6c9f41c64a7eca3e
+/usr/share/package-licenses/Babel/2c712b75adbb8352f37d377289596fd88935352d
 /usr/share/package-licenses/Babel/d0eff60551064b040266867c393e035d747b0ae5
 
 %files python

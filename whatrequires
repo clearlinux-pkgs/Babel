@@ -3,6 +3,5 @@ Jinja2
 Mako
 Sphinx
 conda
-django-babel
 jupyterlab_server
 traceback2
